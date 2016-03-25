@@ -1,0 +1,28 @@
+[Desktop Entry]
+Categories=WebBrowser;
+Name=Maxthon
+Icon=maxthon-browser
+Exec=/usr/bin/maxthon %U
+StartupNotify=true
+Terminal=false
+Type=Application
+Name[zh_CN]=傲游浏览器
+Name[zh_TW]=傲遊瀏覽器
+GenericName[zh_CN]=用浏览器连接世界
+
+Categories=Network;WebBrowser;
+MimeType=text/html;text/xml;application/xhtml_xml;image/webp;x-scheme-handler/http;x-scheme-handler/https;x-scheme-handler/ftp;
+X-Ayatana-Desktop-Shortcuts=NewWindow;NewIncognito
+[NewWindow Shortcut Group]
+Name=New Window
+Name[zh_CN]=新建窗口
+Name[zh_TW]=開新視窗
+Exec=/usr/bin/maxthon
+TargetEnvironment=Unity
+
+[NewIncognito Shortcut Group]
+Name=New Incognito Window
+Name[zh_CN]=隐私浏览
+Name[zh_TW]=新增無痕式視窗
+Exec=/usr/bin/maxthon --incognito
+TargetEnvironment=Unity
